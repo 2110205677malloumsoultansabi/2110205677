@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Inter', sans-serif; /* Apply the Inter font from Google Fonts */
+    background-color: #f3f4f6; /* Light gray background color */
+    color: #374151; /* Dark gray text color */
+    line-height: 1.6; /* Improve readability with more line spacing */
+}
+
+/* Section Padding and Margin */
+section {
+    padding: 2rem; /* Add consistent padding to all sections */
+    margin-bottom: 2rem; /* Add consistent bottom margin between sections */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (min-width: 768px) {
+    section {
+        padding: 3rem; /* Increase padding on larger screens */
+    }
+}
+
+/* Progress Bar Styling for Languages Section */
+.progress-bar-container {
+    background-color: #e0e0e0; /* Light gray background for the progress bar track */
+    border-radius: 9999px; /* Fully rounded corners */
+    height: 0.75rem; /* Height of the progress bar */
+    overflow: hidden; /* Hide overflow of the fill */
+}
+
+.progress-bar-fill {
+    background-color: #6366f1; /* Indigo color for the progress bar fill */
+    height: 100%; /* Make the fill take full height of its container */
+    border-radius: 9999px; /* Fully rounded corners for the fill */
+    transition: width 0.5s ease-in-out; /* Smooth transition for width changes */
+}
